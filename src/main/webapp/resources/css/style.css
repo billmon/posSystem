@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+.wrapper {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.form {
+	display: inline-block;
+}
+
+.btnform {
+	display: inline-block;
+	margin: 0;
+	position: absolute;
+}
+
+.loginBtn {
+	height: 45px;
+}

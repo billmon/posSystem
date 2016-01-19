@@ -7,14 +7,14 @@
 <title>주문</title>
 </head>
 <body>
-<form action="">
+<form action="" id="frmOrder" name="frmOrder">
 	<table  border="1px">
 		<tr>
 			<th>주문 내용</th>
-			<th>음료<input type="text" name="" id="" value=""></th>
-			<th>빵<input type="text" name="" id="" value=""></th>
-			<th>텀블러<input type="text" name="" id="" value=""></th>
-			<th>사이드메뉴<input type="text" name="" id="" value=""></th>
+			<th>음료<input type="text" name="drink" id="drink" value="drink"></th>
+			<th>후식<input type="text" name="dessert" id="dessert" value="dessert"></th>
+			<th>텀블러<input type="text" name="product" id="product" value="product"></th>
+			<th>사이드메뉴<input type="text" name="sideMenu" id="sideMenu" value="sideMenu"></th>
 		</tr>
 
 		<!-- 밑의 에이젝스 들어갈 테이블과 각 td너비 같게 맞출것! -->
@@ -84,11 +84,14 @@
 			</td>
 			<td><label><input type="checkbox">전자 영수증 발급 </label><br>
 				<input type="button" onclick="" value="결제"></td>
-			<td colspan="2">고객번호 조회<br> <input type="number" name=""
-				id="" required="required" /> <input type="button" value="조회"><br>
-				고객명 : <input type="text" name="" id="" value="">
+			<td colspan="2">고객번호 조회
+			<br> 
+				<input type="number" name="memId" id="memId" required="required" /> 
+				<input type="button" value="조회" />
+				<br>
+				고객명 : <input type="text" name="name" id="name" value="name" />
 			</td>
-			<td><input type="button" onclick="" value="전체  주문 취소"></td>
+			<td><input type="button" onclick="" value="전체  주문 취소" /></td>
 		</tr>
 
 	</table>

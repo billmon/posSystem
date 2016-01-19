@@ -15,14 +15,13 @@
 				<th>단가</th>
 				<th>카테고리</th>
 			</tr>
-			
-				<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				</tr>
-			
+
+			<tr>
+				<td><a href="#"></a></td>
+				<td><a href="#"></a></td>
+				<td><a href="#"></a></td>
+			</tr>
+
 		</table>
 	</div>
 </body>
